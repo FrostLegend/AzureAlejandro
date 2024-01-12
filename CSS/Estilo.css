@@ -1,0 +1,140 @@
+body{
+    background-color: pink;
+    text-align: justify;
+    background-image: url(../img/Raspberry_Pi_Logo.svg);
+    background-repeat:repeat-y;
+    background-size: 75px;
+    background-position: 3%;
+}
+
+@font-face {
+    font-family: Sombra;
+    src: url(../press-start-2p.woff2) format("woff2");
+}
+
+#Cuerpo{
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+#Menú{
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+}
+
+a{
+    margin: 15px;
+    text-decoration: none;
+}
+
+i{
+    text-transform: uppercase;
+}
+
+p{
+    padding-left: 1%;
+    font-size: 12px;
+    text-indent: 20px;  
+    margin-right: 2%; 
+}
+
+#Mag{
+    margin: 10px;
+    width: 250px;
+    height: auto;
+    float: right;
+    display: block;
+    border: solid white 2px;
+    padding: 4px;
+}
+
+#PC{
+    margin: 10px;
+    margin-top: -10px;
+    width: 250px;
+    height: auto;
+    float: left;
+    display: block;
+    border: solid white 2px;
+    padding: 4px;
+}
+
+#WiFr{
+    margin: 10px;
+    margin-top: -10px;
+    width: 250px;
+    height: 250px;
+    float: right;
+    display: block;
+    border: solid white 2px;
+    padding: 4px;
+}
+
+
+h1{
+    color: green;
+    font-family: Sombra;
+    text-shadow: 10px -5px 0px rgb(65, 148, 65);
+}
+
+h2{
+    background-color: palevioletred;
+    color: white;
+    margin-top: 0;
+    padding-left: 1%;
+}
+
+#TheMagPi{
+    background-color: rgb(250, 146, 198);
+    border: 8px solid rgb(167, 60, 96);
+    margin-top: 2%;
+    overflow: hidden;
+}
+
+#CustomPC{
+    background-color: rgb(250, 146, 198);
+    border: 8px solid rgb(167, 60, 96);
+    margin-top: 2%;
+    overflow: hidden;
+}
+
+#Wireframe{
+    background-color: rgb(250, 146, 198);
+    border: 8px solid rgb(167, 60, 96);
+    margin-top: 2%;
+    overflow: hidden;
+}
+
+.Rojo{
+    color: red;
+}
+
+.Linia{
+    text-decoration: overline underline green;
+}
+
+.Flecha{
+    margin-top: 15%;
+    width: 5%;
+    height: auto;
+    display: block;
+    bottom: 0;
+}
+
+hr{
+    border: 5px solid rgb(167, 60, 96);
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+footer{
+    color: rgb(167, 60, 96);
+    float: right;
+    font-size: 12px;
+}
